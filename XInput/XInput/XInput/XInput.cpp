@@ -1,7 +1,7 @@
 #include "XInput.h"
 
 CXInput::CXInput()
-	: m_State			( CONTROTLLERS_MAX )
+	: m_State			( FOUR_LIMITED_CONTROLLER )
 	, m_ConnectedCount	( 0 )
 {
 }

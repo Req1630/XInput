@@ -1,0 +1,1393 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>XInput: CXInput クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">XInput
+   &#160;<span id="projectnumber">1.0.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pub-static-methods">静的公開メンバ関数</a> &#124;
+<a href="#pri-methods">非公開メンバ関数</a> &#124;
+<a href="#pri-static-methods">静的非公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="class_c_x_input-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">CXInput クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>XInput Class(Singleton).  
+ <a href="class_c_x_input.html#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_x_input_8h_source.html">XInput.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a839a4fe4d76764db7a5b177351d014d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#a839a4fe4d76764db7a5b177351d014d6">CXInput</a> ()</td></tr>
+<tr class="memdesc:a839a4fe4d76764db7a5b177351d014d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンストラクタ.  <a href="#a839a4fe4d76764db7a5b177351d014d6">[詳解]</a><br /></td></tr>
+<tr class="separator:a839a4fe4d76764db7a5b177351d014d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4abace7f29e5df01549db58bc7b1503"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#ae4abace7f29e5df01549db58bc7b1503">~CXInput</a> ()</td></tr>
+<tr class="memdesc:ae4abace7f29e5df01549db58bc7b1503"><td class="mdescLeft">&#160;</td><td class="mdescRight">デストラクタ.  <a href="#ae4abace7f29e5df01549db58bc7b1503">[詳解]</a><br /></td></tr>
+<tr class="separator:ae4abace7f29e5df01549db58bc7b1503"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静的公開メンバ関数</h2></td></tr>
+<tr class="memitem:abc24e3e638cf24fd9fe83f96bda123d6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#abc24e3e638cf24fd9fe83f96bda123d6">StatsUpdate</a> ()</td></tr>
+<tr class="memdesc:abc24e3e638cf24fd9fe83f96bda123d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">コントローラーの状態を更新.  <a href="#abc24e3e638cf24fd9fe83f96bda123d6">[詳解]</a><br /></td></tr>
+<tr class="separator:abc24e3e638cf24fd9fe83f96bda123d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a045db34bf722c38089a17cb88dff4dc1"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#a045db34bf722c38089a17cb88dff4dc1">GetConnectCount</a> ()</td></tr>
+<tr class="memdesc:a045db34bf722c38089a17cb88dff4dc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">コントローラーの接続している数を取得.  <a href="#a045db34bf722c38089a17cb88dff4dc1">[詳解]</a><br /></td></tr>
+<tr class="separator:a045db34bf722c38089a17cb88dff4dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9beef3432f62163d3b495ac87dc62b6a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#a9beef3432f62163d3b495ac87dc62b6a">A_Button</a> (const int &amp;connectNum=0)</td></tr>
+<tr class="memdesc:a9beef3432f62163d3b495ac87dc62b6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">A ボタンの状態を取得.  <a href="#a9beef3432f62163d3b495ac87dc62b6a">[詳解]</a><br /></td></tr>
+<tr class="separator:a9beef3432f62163d3b495ac87dc62b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2fcdec9946169c4a0da74d95929a17f"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#ae2fcdec9946169c4a0da74d95929a17f">B_Button</a> (const int &amp;connectNum=0)</td></tr>
+<tr class="memdesc:ae2fcdec9946169c4a0da74d95929a17f"><td class="mdescLeft">&#160;</td><td class="mdescRight">B ボタンの状態を取得.  <a href="#ae2fcdec9946169c4a0da74d95929a17f">[詳解]</a><br /></td></tr>
+<tr class="separator:ae2fcdec9946169c4a0da74d95929a17f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd58ae7c71d8ba8aeb849c336b2397a2"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#acd58ae7c71d8ba8aeb849c336b2397a2">X_Button</a> (const int &amp;connectNum=0)</td></tr>
+<tr class="memdesc:acd58ae7c71d8ba8aeb849c336b2397a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">X ボタンの状態を取得.  <a href="#acd58ae7c71d8ba8aeb849c336b2397a2">[詳解]</a><br /></td></tr>
+<tr class="separator:acd58ae7c71d8ba8aeb849c336b2397a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a588cfc0893ca2487fe809f65b25a0da4"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#a588cfc0893ca2487fe809f65b25a0da4">Y_Button</a> (const int &amp;connectNum=0)</td></tr>
+<tr class="memdesc:a588cfc0893ca2487fe809f65b25a0da4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Y ボタンの状態を取得.  <a href="#a588cfc0893ca2487fe809f65b25a0da4">[詳解]</a><br /></td></tr>
+<tr class="separator:a588cfc0893ca2487fe809f65b25a0da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2061f67d7bc928a6af29a8470746e08"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#af2061f67d7bc928a6af29a8470746e08">DPadUp</a> (const int &amp;connectNum=0, const bool &amp;isKeyinput=false)</td></tr>
+<tr class="memdesc:af2061f67d7bc928a6af29a8470746e08"><td class="mdescLeft">&#160;</td><td class="mdescRight">上ボタンの状態を取得.  <a href="#af2061f67d7bc928a6af29a8470746e08">[詳解]</a><br /></td></tr>
+<tr class="separator:af2061f67d7bc928a6af29a8470746e08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee0de092bbd5620d052aab19fc5ac9c5"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#aee0de092bbd5620d052aab19fc5ac9c5">DPadDown</a> (const int &amp;connectNum=0, const bool &amp;isKeyinput=false)</td></tr>
+<tr class="memdesc:aee0de092bbd5620d052aab19fc5ac9c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">下ボタンの状態を取得.  <a href="#aee0de092bbd5620d052aab19fc5ac9c5">[詳解]</a><br /></td></tr>
+<tr class="separator:aee0de092bbd5620d052aab19fc5ac9c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a509e274d19b82a72144a82d020cdd365"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#a509e274d19b82a72144a82d020cdd365">DPadLEFT</a> (const int &amp;connectNum=0, const bool &amp;isKeyinput=false)</td></tr>
+<tr class="memdesc:a509e274d19b82a72144a82d020cdd365"><td class="mdescLeft">&#160;</td><td class="mdescRight">左ボタンの状態を取得.  <a href="#a509e274d19b82a72144a82d020cdd365">[詳解]</a><br /></td></tr>
+<tr class="separator:a509e274d19b82a72144a82d020cdd365"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1b75563c7f9549749b3c6b8ba152f53"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#ad1b75563c7f9549749b3c6b8ba152f53">DPadRIGHT</a> (const int &amp;connectNum=0, const bool &amp;isKeyinput=false)</td></tr>
+<tr class="memdesc:ad1b75563c7f9549749b3c6b8ba152f53"><td class="mdescLeft">&#160;</td><td class="mdescRight">右ボタンの状態を取得.  <a href="#ad1b75563c7f9549749b3c6b8ba152f53">[詳解]</a><br /></td></tr>
+<tr class="separator:ad1b75563c7f9549749b3c6b8ba152f53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54662b7fa257a69bc649660e4fdcb798"><td class="memItemLeft" align="right" valign="top">static SHORT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#a54662b7fa257a69bc649660e4fdcb798">LThumbX_Axis</a> (const int &amp;connectNum=0)</td></tr>
+<tr class="memdesc:a54662b7fa257a69bc649660e4fdcb798"><td class="mdescLeft">&#160;</td><td class="mdescRight">LスティックのX軸の値を取得.  <a href="#a54662b7fa257a69bc649660e4fdcb798">[詳解]</a><br /></td></tr>
+<tr class="separator:a54662b7fa257a69bc649660e4fdcb798"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59ca7abe24220a47efd47fde264514c7"><td class="memItemLeft" align="right" valign="top">static SHORT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#a59ca7abe24220a47efd47fde264514c7">LThumbY_Axis</a> (const int &amp;connectNum=0)</td></tr>
+<tr class="memdesc:a59ca7abe24220a47efd47fde264514c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">LスティックのY軸の値を取得.  <a href="#a59ca7abe24220a47efd47fde264514c7">[詳解]</a><br /></td></tr>
+<tr class="separator:a59ca7abe24220a47efd47fde264514c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b3e622f4078c9f3bd93b9200778cbcf"><td class="memItemLeft" align="right" valign="top">static SHORT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#a4b3e622f4078c9f3bd93b9200778cbcf">RThumbX_Axis</a> (const int &amp;connectNum=0)</td></tr>
+<tr class="memdesc:a4b3e622f4078c9f3bd93b9200778cbcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">RスティックのX軸の値を取得.  <a href="#a4b3e622f4078c9f3bd93b9200778cbcf">[詳解]</a><br /></td></tr>
+<tr class="separator:a4b3e622f4078c9f3bd93b9200778cbcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57c6ec8324c1a84454648343bb89445d"><td class="memItemLeft" align="right" valign="top">static SHORT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#a57c6ec8324c1a84454648343bb89445d">RThumbY_Axis</a> (const int &amp;connectNum=0)</td></tr>
+<tr class="memdesc:a57c6ec8324c1a84454648343bb89445d"><td class="mdescLeft">&#160;</td><td class="mdescRight">RスティックのY軸の値を取得.  <a href="#a57c6ec8324c1a84454648343bb89445d">[詳解]</a><br /></td></tr>
+<tr class="separator:a57c6ec8324c1a84454648343bb89445d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b5a6bdf052ea9dd8074a2cdc41508db"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#a3b5a6bdf052ea9dd8074a2cdc41508db">LThumb_Button</a> (const int &amp;connectNum=0)</td></tr>
+<tr class="memdesc:a3b5a6bdf052ea9dd8074a2cdc41508db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lスティックボタンの状態を取得.  <a href="#a3b5a6bdf052ea9dd8074a2cdc41508db">[詳解]</a><br /></td></tr>
+<tr class="separator:a3b5a6bdf052ea9dd8074a2cdc41508db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6e354353c9581e447e1b71e7a70c79b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#ab6e354353c9581e447e1b71e7a70c79b">RThumb_Button</a> (const int &amp;connectNum=0)</td></tr>
+<tr class="memdesc:ab6e354353c9581e447e1b71e7a70c79b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rスティックボタンの状態を取得.  <a href="#ab6e354353c9581e447e1b71e7a70c79b">[詳解]</a><br /></td></tr>
+<tr class="separator:ab6e354353c9581e447e1b71e7a70c79b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb031cbe2691546954714cd5b69357f3"><td class="memItemLeft" align="right" valign="top">static INT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#aeb031cbe2691546954714cd5b69357f3">LTrigger</a> (const int &amp;connectNum=0)</td></tr>
+<tr class="memdesc:aeb031cbe2691546954714cd5b69357f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lトリガーの状態を取得.  <a href="#aeb031cbe2691546954714cd5b69357f3">[詳解]</a><br /></td></tr>
+<tr class="separator:aeb031cbe2691546954714cd5b69357f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9131076067f0a9a488ec52c75ef0abe"><td class="memItemLeft" align="right" valign="top">static INT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#aa9131076067f0a9a488ec52c75ef0abe">RTrigger</a> (const int &amp;connectNum=0)</td></tr>
+<tr class="memdesc:aa9131076067f0a9a488ec52c75ef0abe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rトリガーの状態を取得.  <a href="#aa9131076067f0a9a488ec52c75ef0abe">[詳解]</a><br /></td></tr>
+<tr class="separator:aa9131076067f0a9a488ec52c75ef0abe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f5b32d431b5c45fbc721ef737e5d029"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#a3f5b32d431b5c45fbc721ef737e5d029">L_Button</a> (const int &amp;connectNum=0)</td></tr>
+<tr class="memdesc:a3f5b32d431b5c45fbc721ef737e5d029"><td class="mdescLeft">&#160;</td><td class="mdescRight">L ボタンの状態を取得.  <a href="#a3f5b32d431b5c45fbc721ef737e5d029">[詳解]</a><br /></td></tr>
+<tr class="separator:a3f5b32d431b5c45fbc721ef737e5d029"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9ba0ed312511591feda6fdfc19386d2"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#ae9ba0ed312511591feda6fdfc19386d2">R_Button</a> (const int &amp;connectNum=0)</td></tr>
+<tr class="memdesc:ae9ba0ed312511591feda6fdfc19386d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">R ボタンの状態を取得.  <a href="#ae9ba0ed312511591feda6fdfc19386d2">[詳解]</a><br /></td></tr>
+<tr class="separator:ae9ba0ed312511591feda6fdfc19386d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4101b839850b4609fa4ed973aafb726d"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#a4101b839850b4609fa4ed973aafb726d">Start_Button</a> (const int &amp;connectNum=0)</td></tr>
+<tr class="memdesc:a4101b839850b4609fa4ed973aafb726d"><td class="mdescLeft">&#160;</td><td class="mdescRight">スタート ボタンの状態を取得.  <a href="#a4101b839850b4609fa4ed973aafb726d">[詳解]</a><br /></td></tr>
+<tr class="separator:a4101b839850b4609fa4ed973aafb726d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa198c9de3ecf66604164c2e4e33bc17b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#aa198c9de3ecf66604164c2e4e33bc17b">Back_Button</a> (const int &amp;connectNum=0)</td></tr>
+<tr class="memdesc:aa198c9de3ecf66604164c2e4e33bc17b"><td class="mdescLeft">&#160;</td><td class="mdescRight">バック ボタンの状態を取得.  <a href="#aa198c9de3ecf66604164c2e4e33bc17b">[詳解]</a><br /></td></tr>
+<tr class="separator:aa198c9de3ecf66604164c2e4e33bc17b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+非公開メンバ関数</h2></td></tr>
+<tr class="memitem:a3bd1ca18881d3fe6e476f200de5ecdda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#a3bd1ca18881d3fe6e476f200de5ecdda">ConnectCheck</a> (const int &amp;connectNum)</td></tr>
+<tr class="memdesc:a3bd1ca18881d3fe6e476f200de5ecdda"><td class="mdescLeft">&#160;</td><td class="mdescRight">接続の数を確認 クラス内で使用.  <a href="#a3bd1ca18881d3fe6e476f200de5ecdda">[詳解]</a><br /></td></tr>
+<tr class="separator:a3bd1ca18881d3fe6e476f200de5ecdda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cc42d5bed5930134d925592419a75cb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#a9cc42d5bed5930134d925592419a75cb">IsButtonInput</a> (const int &amp;connectNum, const DWORD &amp;button_mask)</td></tr>
+<tr class="memdesc:a9cc42d5bed5930134d925592419a75cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">ボタン系の状態を取得 クラス内で使用.  <a href="#a9cc42d5bed5930134d925592419a75cb">[詳解]</a><br /></td></tr>
+<tr class="separator:a9cc42d5bed5930134d925592419a75cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04b21c31e00a65ac6df400eb0eb6fa51"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#a04b21c31e00a65ac6df400eb0eb6fa51">CXInput</a> (const <a class="el" href="class_c_x_input.html">CXInput</a> &amp;)=delete</td></tr>
+<tr class="separator:a04b21c31e00a65ac6df400eb0eb6fa51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3408f0489ad7eb08741ec1384680bd2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#ad3408f0489ad7eb08741ec1384680bd2">CXInput</a> (<a class="el" href="class_c_x_input.html">CXInput</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:ad3408f0489ad7eb08741ec1384680bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aace6823c5890ecddcedf94e970450b90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_x_input.html">CXInput</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#aace6823c5890ecddcedf94e970450b90">operator=</a> (const <a class="el" href="class_c_x_input.html">CXInput</a> &amp;)=delete</td></tr>
+<tr class="separator:aace6823c5890ecddcedf94e970450b90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3854c1ab461a8091142568bec96ae5c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_x_input.html">CXInput</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#a3854c1ab461a8091142568bec96ae5c6">operator=</a> (<a class="el" href="class_c_x_input.html">CXInput</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:a3854c1ab461a8091142568bec96ae5c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+静的非公開メンバ関数</h2></td></tr>
+<tr class="memitem:adaa47f1c37e96523ed0cdf3627c5648c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_c_x_input.html">CXInput</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#adaa47f1c37e96523ed0cdf3627c5648c">GetInstance</a> ()</td></tr>
+<tr class="memdesc:adaa47f1c37e96523ed0cdf3627c5648c"><td class="mdescLeft">&#160;</td><td class="mdescRight">自身のクラスを作成、取得.  <a href="#adaa47f1c37e96523ed0cdf3627c5648c">[詳解]</a><br /></td></tr>
+<tr class="separator:adaa47f1c37e96523ed0cdf3627c5648c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:a00935b343f934e0a513b5f9c57673048"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#a00935b343f934e0a513b5f9c57673048">FOUR_LIMITED_CONTROLLER</a> = 4</td></tr>
+<tr class="memdesc:a00935b343f934e0a513b5f9c57673048"><td class="mdescLeft">&#160;</td><td class="mdescRight">接続コントローラの最大数.  <a href="#a00935b343f934e0a513b5f9c57673048">[詳解]</a><br /></td></tr>
+<tr class="separator:a00935b343f934e0a513b5f9c57673048"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10f4b2c7e503b8abf6f33dfa478883e4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; XINPUT_STATE &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#a10f4b2c7e503b8abf6f33dfa478883e4">m_State</a></td></tr>
+<tr class="memdesc:a10f4b2c7e503b8abf6f33dfa478883e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">接続したコントローラーの状態.  <a href="#a10f4b2c7e503b8abf6f33dfa478883e4">[詳解]</a><br /></td></tr>
+<tr class="separator:a10f4b2c7e503b8abf6f33dfa478883e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad42de4b22784a4c29efdd4ee90669938"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_x_input.html#ad42de4b22784a4c29efdd4ee90669938">m_ConnectedCount</a></td></tr>
+<tr class="memdesc:ad42de4b22784a4c29efdd4ee90669938"><td class="mdescLeft">&#160;</td><td class="mdescRight">接続したコントローラーの数.  <a href="#ad42de4b22784a4c29efdd4ee90669938">[詳解]</a><br /></td></tr>
+<tr class="separator:ad42de4b22784a4c29efdd4ee90669938"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>XInput Class(Singleton). </p>
+<p>バイブレーション機能以外の機能はついてます. </p>
+
+<p class="definition"> <a class="el" href="_x_input_8h_source.html">XInput.h</a> の <a class="el" href="_x_input_8h_source.html#l00028">28</a> 行目に定義があります。</p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a id="a839a4fe4d76764db7a5b177351d014d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a839a4fe4d76764db7a5b177351d014d6">&#9670;&nbsp;</a></span>CXInput() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CXInput::CXInput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>コンストラクタ. </p>
+
+<p class="definition"> <a class="el" href="_x_input_8cpp_source.html">XInput.cpp</a> の <a class="el" href="_x_input_8cpp_source.html#l00003">3</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="ae4abace7f29e5df01549db58bc7b1503"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4abace7f29e5df01549db58bc7b1503">&#9670;&nbsp;</a></span>~CXInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CXInput::~CXInput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>デストラクタ. </p>
+
+<p class="definition"> <a class="el" href="_x_input_8cpp_source.html">XInput.cpp</a> の <a class="el" href="_x_input_8cpp_source.html#l00009">9</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a04b21c31e00a65ac6df400eb0eb6fa51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04b21c31e00a65ac6df400eb0eb6fa51">&#9670;&nbsp;</a></span>CXInput() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CXInput::CXInput </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_c_x_input.html">CXInput</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad3408f0489ad7eb08741ec1384680bd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3408f0489ad7eb08741ec1384680bd2">&#9670;&nbsp;</a></span>CXInput() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CXInput::CXInput </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_x_input.html">CXInput</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a id="a9beef3432f62163d3b495ac87dc62b6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9beef3432f62163d3b495ac87dc62b6a">&#9670;&nbsp;</a></span>A_Button()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CXInput::A_Button </td>
+          <td>(</td>
+          <td class="paramtype">const int &amp;&#160;</td>
+          <td class="paramname"><em>connectNum</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A ボタンの状態を取得. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectNum</td><td>使用したいコントローラーの指定 何も指定しない場合は 0 固定. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>bool 押されていたら true。押されていなかったら false. </dd></dl>
+
+<p class="definition"> <a class="el" href="_x_input_8cpp_source.html">XInput.cpp</a> の <a class="el" href="_x_input_8cpp_source.html#l00027">27</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="ae2fcdec9946169c4a0da74d95929a17f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2fcdec9946169c4a0da74d95929a17f">&#9670;&nbsp;</a></span>B_Button()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CXInput::B_Button </td>
+          <td>(</td>
+          <td class="paramtype">const int &amp;&#160;</td>
+          <td class="paramname"><em>connectNum</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>B ボタンの状態を取得. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectNum</td><td>使用したいコントローラーの指定 何も指定しない場合は 0 固定. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>bool 押されていたら true。押されていなかったら false. </dd></dl>
+
+<p class="definition"> <a class="el" href="_x_input_8cpp_source.html">XInput.cpp</a> の <a class="el" href="_x_input_8cpp_source.html#l00032">32</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="aa198c9de3ecf66604164c2e4e33bc17b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa198c9de3ecf66604164c2e4e33bc17b">&#9670;&nbsp;</a></span>Back_Button()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CXInput::Back_Button </td>
+          <td>(</td>
+          <td class="paramtype">const int &amp;&#160;</td>
+          <td class="paramname"><em>connectNum</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>バック ボタンの状態を取得. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectNum</td><td>使用したいコントローラーの指定 何も指定しない場合は 0 固定. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>bool 押されていたら true。押されていなかったら false. </dd></dl>
+
+<p class="definition"> <a class="el" href="_x_input_8cpp_source.html">XInput.cpp</a> の <a class="el" href="_x_input_8cpp_source.html#l00172">172</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a3bd1ca18881d3fe6e476f200de5ecdda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bd1ca18881d3fe6e476f200de5ecdda">&#9670;&nbsp;</a></span>ConnectCheck()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CXInput::ConnectCheck </td>
+          <td>(</td>
+          <td class="paramtype">const int &amp;&#160;</td>
+          <td class="paramname"><em>connectNum</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接続の数を確認 クラス内で使用. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectNum</td><td>指定したコントローラー. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition"> <a class="el" href="_x_input_8cpp_source.html">XInput.cpp</a> の <a class="el" href="_x_input_8cpp_source.html#l00179">179</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="aee0de092bbd5620d052aab19fc5ac9c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee0de092bbd5620d052aab19fc5ac9c5">&#9670;&nbsp;</a></span>DPadDown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CXInput::DPadDown </td>
+          <td>(</td>
+          <td class="paramtype">const int &amp;&#160;</td>
+          <td class="paramname"><em>connectNum</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool &amp;&#160;</td>
+          <td class="paramname"><em>isKeyinput</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>下ボタンの状態を取得. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectNum</td><td>使用したいコントローラーの指定 何も指定しない場合は 0 固定. </td></tr>
+    <tr><td class="paramname">isKeyinput</td><td>キーボードの方向キーを使用するかどうか 何も指定しない場合は false 固定. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>bool 押されていたら true。押されていなかったら false. </dd></dl>
+
+<p class="definition"> <a class="el" href="_x_input_8cpp_source.html">XInput.cpp</a> の <a class="el" href="_x_input_8cpp_source.html#l00061">61</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a509e274d19b82a72144a82d020cdd365"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a509e274d19b82a72144a82d020cdd365">&#9670;&nbsp;</a></span>DPadLEFT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CXInput::DPadLEFT </td>
+          <td>(</td>
+          <td class="paramtype">const int &amp;&#160;</td>
+          <td class="paramname"><em>connectNum</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool &amp;&#160;</td>
+          <td class="paramname"><em>isKeyinput</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>左ボタンの状態を取得. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectNum</td><td>使用したいコントローラーの指定 何も指定しない場合は 0 固定. </td></tr>
+    <tr><td class="paramname">isKeyinput</td><td>キーボードの方向キーを使用するかどうか 何も指定しない場合は false 固定. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>bool 押されていたら true。押されていなかったら false. </dd></dl>
+
+<p class="definition"> <a class="el" href="_x_input_8cpp_source.html">XInput.cpp</a> の <a class="el" href="_x_input_8cpp_source.html#l00071">71</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="ad1b75563c7f9549749b3c6b8ba152f53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1b75563c7f9549749b3c6b8ba152f53">&#9670;&nbsp;</a></span>DPadRIGHT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CXInput::DPadRIGHT </td>
+          <td>(</td>
+          <td class="paramtype">const int &amp;&#160;</td>
+          <td class="paramname"><em>connectNum</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool &amp;&#160;</td>
+          <td class="paramname"><em>isKeyinput</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>右ボタンの状態を取得. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectNum</td><td>使用したいコントローラーの指定 何も指定しない場合は 0 固定. </td></tr>
+    <tr><td class="paramname">isKeyinput</td><td>キーボードの方向キーを使用するかどうか 何も指定しない場合は false 固定. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>bool 押されていたら true。押されていなかったら false. </dd></dl>
+
+<p class="definition"> <a class="el" href="_x_input_8cpp_source.html">XInput.cpp</a> の <a class="el" href="_x_input_8cpp_source.html#l00081">81</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="af2061f67d7bc928a6af29a8470746e08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2061f67d7bc928a6af29a8470746e08">&#9670;&nbsp;</a></span>DPadUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CXInput::DPadUp </td>
+          <td>(</td>
+          <td class="paramtype">const int &amp;&#160;</td>
+          <td class="paramname"><em>connectNum</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool &amp;&#160;</td>
+          <td class="paramname"><em>isKeyinput</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>上ボタンの状態を取得. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectNum</td><td>使用したいコントローラーの指定 何も指定しない場合は 0 固定. </td></tr>
+    <tr><td class="paramname">isKeyinput</td><td>キーボードの方向キーを使用するかどうか 何も指定しない場合は false 固定. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>bool 押されていたら true。押されていなかったら false. </dd></dl>
+
+<p class="definition"> <a class="el" href="_x_input_8cpp_source.html">XInput.cpp</a> の <a class="el" href="_x_input_8cpp_source.html#l00051">51</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a045db34bf722c38089a17cb88dff4dc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a045db34bf722c38089a17cb88dff4dc1">&#9670;&nbsp;</a></span>GetConnectCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int CXInput::GetConnectCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>コントローラーの接続している数を取得. </p>
+<dl class="section return"><dt>戻り値</dt><dd>int 現在のコントローラーの接続数. </dd></dl>
+
+<p class="definition"> <a class="el" href="_x_input_8h_source.html">XInput.h</a> の <a class="el" href="_x_input_8h_source.html#l00053">53</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="adaa47f1c37e96523ed0cdf3627c5648c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaa47f1c37e96523ed0cdf3627c5648c">&#9670;&nbsp;</a></span>GetInstance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_c_x_input.html">CXInput</a> * CXInput::GetInstance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>自身のクラスを作成、取得. </p>
+<dl class="section return"><dt>戻り値</dt><dd>CXInput* 作成された自身を返す. </dd></dl>
+
+<p class="definition"> <a class="el" href="_x_input_8h_source.html">XInput.h</a> の <a class="el" href="_x_input_8h_source.html#l00227">227</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a9cc42d5bed5930134d925592419a75cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cc42d5bed5930134d925592419a75cb">&#9670;&nbsp;</a></span>IsButtonInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CXInput::IsButtonInput </td>
+          <td>(</td>
+          <td class="paramtype">const int &amp;&#160;</td>
+          <td class="paramname"><em>connectNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const DWORD &amp;&#160;</td>
+          <td class="paramname"><em>button_mask</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ボタン系の状態を取得 クラス内で使用. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectNum</td><td>指定したコントローラー. </td></tr>
+    <tr><td class="paramname">button_mask</td><td>指定したいボタン. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>bool 押されていたら true。押されていなかったら false. </dd></dl>
+
+<p class="definition"> <a class="el" href="_x_input_8cpp_source.html">XInput.cpp</a> の <a class="el" href="_x_input_8cpp_source.html#l00186">186</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a3f5b32d431b5c45fbc721ef737e5d029"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f5b32d431b5c45fbc721ef737e5d029">&#9670;&nbsp;</a></span>L_Button()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CXInput::L_Button </td>
+          <td>(</td>
+          <td class="paramtype">const int &amp;&#160;</td>
+          <td class="paramname"><em>connectNum</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>L ボタンの状態を取得. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectNum</td><td>使用したいコントローラーの指定 何も指定しない場合は 0 固定. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>bool 押されていたら true。押されていなかったら false. </dd></dl>
+
+<p class="definition"> <a class="el" href="_x_input_8cpp_source.html">XInput.cpp</a> の <a class="el" href="_x_input_8cpp_source.html#l00150">150</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a3b5a6bdf052ea9dd8074a2cdc41508db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b5a6bdf052ea9dd8074a2cdc41508db">&#9670;&nbsp;</a></span>LThumb_Button()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CXInput::LThumb_Button </td>
+          <td>(</td>
+          <td class="paramtype">const int &amp;&#160;</td>
+          <td class="paramname"><em>connectNum</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Lスティックボタンの状態を取得. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectNum</td><td>使用したいコントローラーの指定 何も指定しない場合は 0 固定. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>bool 押されていたら true。押されていなかったら false. </dd></dl>
+
+<p class="definition"> <a class="el" href="_x_input_8cpp_source.html">XInput.cpp</a> の <a class="el" href="_x_input_8cpp_source.html#l00122">122</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a54662b7fa257a69bc649660e4fdcb798"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54662b7fa257a69bc649660e4fdcb798">&#9670;&nbsp;</a></span>LThumbX_Axis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static SHORT CXInput::LThumbX_Axis </td>
+          <td>(</td>
+          <td class="paramtype">const int &amp;&#160;</td>
+          <td class="paramname"><em>connectNum</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>LスティックのX軸の値を取得. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectNum</td><td>使用したいコントローラーの指定 何も指定しない場合は 0 固定. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>SHORT スティックの傾きの値. </dd></dl>
+
+<p class="definition"> <a class="el" href="_x_input_8cpp_source.html">XInput.cpp</a> の <a class="el" href="_x_input_8cpp_source.html#l00095">95</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a59ca7abe24220a47efd47fde264514c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59ca7abe24220a47efd47fde264514c7">&#9670;&nbsp;</a></span>LThumbY_Axis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static SHORT CXInput::LThumbY_Axis </td>
+          <td>(</td>
+          <td class="paramtype">const int &amp;&#160;</td>
+          <td class="paramname"><em>connectNum</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>LスティックのY軸の値を取得. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectNum</td><td>使用したいコントローラーの指定 何も指定しない場合は 0 固定. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>SHORT スティックの傾きの値. </dd></dl>
+
+<p class="definition"> <a class="el" href="_x_input_8cpp_source.html">XInput.cpp</a> の <a class="el" href="_x_input_8cpp_source.html#l00100">100</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="aeb031cbe2691546954714cd5b69357f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb031cbe2691546954714cd5b69357f3">&#9670;&nbsp;</a></span>LTrigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static INT CXInput::LTrigger </td>
+          <td>(</td>
+          <td class="paramtype">const int &amp;&#160;</td>
+          <td class="paramname"><em>connectNum</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Lトリガーの状態を取得. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectNum</td><td>使用したいコントローラーの指定 何も指定しない場合は 0 固定. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>INT トリガーの押し込み値. </dd></dl>
+
+<p class="definition"> <a class="el" href="_x_input_8cpp_source.html">XInput.cpp</a> の <a class="el" href="_x_input_8cpp_source.html#l00136">136</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="aace6823c5890ecddcedf94e970450b90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aace6823c5890ecddcedf94e970450b90">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_c_x_input.html">CXInput</a>&amp; CXInput::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_c_x_input.html">CXInput</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3854c1ab461a8091142568bec96ae5c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3854c1ab461a8091142568bec96ae5c6">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_c_x_input.html">CXInput</a>&amp; CXInput::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_x_input.html">CXInput</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae9ba0ed312511591feda6fdfc19386d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9ba0ed312511591feda6fdfc19386d2">&#9670;&nbsp;</a></span>R_Button()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CXInput::R_Button </td>
+          <td>(</td>
+          <td class="paramtype">const int &amp;&#160;</td>
+          <td class="paramname"><em>connectNum</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>R ボタンの状態を取得. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectNum</td><td>使用したいコントローラーの指定 何も指定しない場合は 0 固定. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>bool 押されていたら true。押されていなかったら false. </dd></dl>
+
+<p class="definition"> <a class="el" href="_x_input_8cpp_source.html">XInput.cpp</a> の <a class="el" href="_x_input_8cpp_source.html#l00155">155</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="ab6e354353c9581e447e1b71e7a70c79b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6e354353c9581e447e1b71e7a70c79b">&#9670;&nbsp;</a></span>RThumb_Button()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CXInput::RThumb_Button </td>
+          <td>(</td>
+          <td class="paramtype">const int &amp;&#160;</td>
+          <td class="paramname"><em>connectNum</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Rスティックボタンの状態を取得. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectNum</td><td>使用したいコントローラーの指定 何も指定しない場合は 0 固定. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>bool 押されていたら true。押されていなかったら false. </dd></dl>
+
+<p class="definition"> <a class="el" href="_x_input_8cpp_source.html">XInput.cpp</a> の <a class="el" href="_x_input_8cpp_source.html#l00127">127</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a4b3e622f4078c9f3bd93b9200778cbcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b3e622f4078c9f3bd93b9200778cbcf">&#9670;&nbsp;</a></span>RThumbX_Axis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static SHORT CXInput::RThumbX_Axis </td>
+          <td>(</td>
+          <td class="paramtype">const int &amp;&#160;</td>
+          <td class="paramname"><em>connectNum</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>RスティックのX軸の値を取得. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectNum</td><td>使用したいコントローラーの指定 何も指定しない場合は 0 固定. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>SHORT スティックの傾きの値. </dd></dl>
+
+<p class="definition"> <a class="el" href="_x_input_8cpp_source.html">XInput.cpp</a> の <a class="el" href="_x_input_8cpp_source.html#l00108">108</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a57c6ec8324c1a84454648343bb89445d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57c6ec8324c1a84454648343bb89445d">&#9670;&nbsp;</a></span>RThumbY_Axis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static SHORT CXInput::RThumbY_Axis </td>
+          <td>(</td>
+          <td class="paramtype">const int &amp;&#160;</td>
+          <td class="paramname"><em>connectNum</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>RスティックのY軸の値を取得. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectNum</td><td>使用したいコントローラーの指定 何も指定しない場合は 0 固定. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>SHORT スティックの傾きの値. </dd></dl>
+
+<p class="definition"> <a class="el" href="_x_input_8cpp_source.html">XInput.cpp</a> の <a class="el" href="_x_input_8cpp_source.html#l00113">113</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="aa9131076067f0a9a488ec52c75ef0abe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9131076067f0a9a488ec52c75ef0abe">&#9670;&nbsp;</a></span>RTrigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static INT CXInput::RTrigger </td>
+          <td>(</td>
+          <td class="paramtype">const int &amp;&#160;</td>
+          <td class="paramname"><em>connectNum</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Rトリガーの状態を取得. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectNum</td><td>使用したいコントローラーの指定 何も指定しない場合は 0 固定. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>INT トリガーの押し込み値. </dd></dl>
+
+<p class="definition"> <a class="el" href="_x_input_8cpp_source.html">XInput.cpp</a> の <a class="el" href="_x_input_8cpp_source.html#l00141">141</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a4101b839850b4609fa4ed973aafb726d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4101b839850b4609fa4ed973aafb726d">&#9670;&nbsp;</a></span>Start_Button()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CXInput::Start_Button </td>
+          <td>(</td>
+          <td class="paramtype">const int &amp;&#160;</td>
+          <td class="paramname"><em>connectNum</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>スタート ボタンの状態を取得. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectNum</td><td>使用したいコントローラーの指定 何も指定しない場合は 0 固定. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>bool 押されていたら true。押されていなかったら false. </dd></dl>
+
+<p class="definition"> <a class="el" href="_x_input_8cpp_source.html">XInput.cpp</a> の <a class="el" href="_x_input_8cpp_source.html#l00164">164</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="abc24e3e638cf24fd9fe83f96bda123d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc24e3e638cf24fd9fe83f96bda123d6">&#9670;&nbsp;</a></span>StatsUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CXInput::StatsUpdate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>コントローラーの状態を更新. </p>
+<p>毎フレーム事に更新すること. </p>
+
+<p class="definition"> <a class="el" href="_x_input_8cpp_source.html">XInput.cpp</a> の <a class="el" href="_x_input_8cpp_source.html#l00012">12</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="acd58ae7c71d8ba8aeb849c336b2397a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd58ae7c71d8ba8aeb849c336b2397a2">&#9670;&nbsp;</a></span>X_Button()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CXInput::X_Button </td>
+          <td>(</td>
+          <td class="paramtype">const int &amp;&#160;</td>
+          <td class="paramname"><em>connectNum</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>X ボタンの状態を取得. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectNum</td><td>使用したいコントローラーの指定 何も指定しない場合は 0 固定. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>bool 押されていたら true。押されていなかったら false. </dd></dl>
+
+<p class="definition"> <a class="el" href="_x_input_8cpp_source.html">XInput.cpp</a> の <a class="el" href="_x_input_8cpp_source.html#l00037">37</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a588cfc0893ca2487fe809f65b25a0da4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a588cfc0893ca2487fe809f65b25a0da4">&#9670;&nbsp;</a></span>Y_Button()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CXInput::Y_Button </td>
+          <td>(</td>
+          <td class="paramtype">const int &amp;&#160;</td>
+          <td class="paramname"><em>connectNum</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Y ボタンの状態を取得. </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectNum</td><td>使用したいコントローラーの指定 何も指定しない場合は 0 固定. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>bool 押されていたら true。押されていなかったら false. </dd></dl>
+
+<p class="definition"> <a class="el" href="_x_input_8cpp_source.html">XInput.cpp</a> の <a class="el" href="_x_input_8cpp_source.html#l00042">42</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="a00935b343f934e0a513b5f9c57673048"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00935b343f934e0a513b5f9c57673048">&#9670;&nbsp;</a></span>FOUR_LIMITED_CONTROLLER</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int CXInput::FOUR_LIMITED_CONTROLLER = 4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接続コントローラの最大数. </p>
+
+<p class="definition"> <a class="el" href="_x_input_8h_source.html">XInput.h</a> の <a class="el" href="_x_input_8h_source.html#l00030">30</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="ad42de4b22784a4c29efdd4ee90669938"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad42de4b22784a4c29efdd4ee90669938">&#9670;&nbsp;</a></span>m_ConnectedCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CXInput::m_ConnectedCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接続したコントローラーの数. </p>
+
+<p class="definition"> <a class="el" href="_x_input_8h_source.html">XInput.h</a> の <a class="el" href="_x_input_8h_source.html#l00235">235</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a10f4b2c7e503b8abf6f33dfa478883e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10f4b2c7e503b8abf6f33dfa478883e4">&#9670;&nbsp;</a></span>m_State</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;XINPUT_STATE&gt; CXInput::m_State</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>接続したコントローラーの状態. </p>
+
+<p class="definition"> <a class="el" href="_x_input_8h_source.html">XInput.h</a> の <a class="el" href="_x_input_8h_source.html#l00234">234</a> 行目に定義があります。</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>
