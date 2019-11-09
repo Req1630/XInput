@@ -1,4 +1,4 @@
 # XInput
 XInputコントローラークラス
 
-[説明](html/index.html).
+[説明](htpps:html/index.html).
