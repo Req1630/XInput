@@ -15,6 +15,7 @@ int main()
 	cci.bVisible = FALSE;
 	SetConsoleCursorInfo( m_hConStdOut, &cci );
 
+	int count = 0;
 	while(true)
 	{
 		COORD coord;
@@ -29,6 +30,8 @@ int main()
 		std::cout << "コントローラー接続数 : " << CXInput::GetConnectCount() << std::endl;
 
 		controller_test_out( CXInput::GetConnectCount() );
+		Sleep(200);
+		count++;
 	}
 
 	CloseHandle( m_hConStdOut );
