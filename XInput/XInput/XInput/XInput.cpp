@@ -45,22 +45,22 @@ void CXInput::StatsUpdate()
 CXInput::enBUTTON_STATE CXInput::A_Button( const int& connectNum )
 {
 	GetInstance()->ConnectCheck( connectNum );
-	return GetInstance()->ButtonInputState( connectNum, XINPUT_GAMEPAD_A );
+	return GetInstance()->ButtonInputState( connectNum, GetInstance()->m_Button["A"] );
 }
 CXInput::enBUTTON_STATE CXInput::B_Button( const int& connectNum )
 {
 	GetInstance()->ConnectCheck( connectNum );
-	return GetInstance()->ButtonInputState( connectNum, XINPUT_GAMEPAD_B );
+	return GetInstance()->ButtonInputState( connectNum, GetInstance()->m_Button["B"] );
 }
 CXInput::enBUTTON_STATE CXInput::X_Button( const int& connectNum )
 {
 	GetInstance()->ConnectCheck( connectNum );
-	return GetInstance()->ButtonInputState( connectNum, XINPUT_GAMEPAD_X );
+	return GetInstance()->ButtonInputState( connectNum, GetInstance()->m_Button["X"] );
 }
 CXInput::enBUTTON_STATE CXInput::Y_Button( const int& connectNum )
 {
 	GetInstance()->ConnectCheck( connectNum );
-	return GetInstance()->ButtonInputState( connectNum, XINPUT_GAMEPAD_Y );
+	return GetInstance()->ButtonInputState( connectNum, GetInstance()->m_Button["Y"] );
 }
 
 //--------------------------------.
@@ -156,12 +156,12 @@ INT CXInput::RTrigger( const int& connectNum )
 CXInput::enBUTTON_STATE CXInput::L_Button( const int& connectNum )
 {
 	GetInstance()->ConnectCheck( connectNum );
-	return GetInstance()->ButtonInputState( connectNum, XINPUT_GAMEPAD_LEFT_SHOULDER );
+	return GetInstance()->ButtonInputState( connectNum, GetInstance()->m_Button["Left"] );
 }
 CXInput::enBUTTON_STATE CXInput::R_Button( const int& connectNum )
 {
 	GetInstance()->ConnectCheck( connectNum );
-	return GetInstance()->ButtonInputState( connectNum, XINPUT_GAMEPAD_RIGHT_SHOULDER );
+	return GetInstance()->ButtonInputState( connectNum, GetInstance()->m_Button["Right"] );
 }
 
 //--------------------------------.

@@ -8,13 +8,7 @@
 #ifndef XINPUT_H
 #define XINPUT_H
 
-#include <Windows.h>
-#include <Xinput.h>
-#include <vector>
-#include <memory>
-#include <unordered_map>
-
-#pragma comment( lib, "xinput.lib" )
+#include "XinputConfig.h"
 
 static const int IDLE_THUMB_MAX		=  10000;	//!< スティックの遊び.
 static const int IDLE_THUMB_MIN		= -10000;	//!< スティックの遊び.
@@ -25,7 +19,7 @@ static const int IDLE_TIGGER_MAX	=  100;		//!< トリガーボタンの遊び.
 *
 * @details バイブレーション機能以外の機能はついてます.
 */
-class CXInput
+class CXInput : public CXInputConfig
 {
 	const int FOUR_LIMITED_CONTROLLER = 4;	//!< 接続コントローラの最大数.
 	
